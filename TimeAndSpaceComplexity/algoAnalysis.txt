@@ -1,0 +1,26 @@
+We evaluate the performance of an algo in terms of input size 
+
+1. Time Compelexity- Amount of time taken by an algorithm to run, as a function of input size
+
+2. Space Complexity - Amount of memory taken by an algo to run , as a function of input size
+
+
+How to represent Complexity?
+Asymptotic Notation - Mathematical tools to represent time and space Complexity
+
+1. Big-Oh Notation (O-Notation) - Worst Case Compelexity
+
+2. Omega Notation - Best Case Compelexity
+
+3. Theta Notation - Average Case Compelexity
+
+
+Note:
+1. Multiple Algorithms exist for the same problem and there is no one right solution.different algorithms work well under different constraines.
+
+2. The same algrithm with the same programming language can be implemented in different
+ways.
+
+3. When writing programs at work, don't lose sight of the big picture, Rather than writing clever code, write code that is simple to reand and maintaine.
+
+

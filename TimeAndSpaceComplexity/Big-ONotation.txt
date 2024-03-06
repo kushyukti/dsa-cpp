@@ -1,0 +1,57 @@
+Worst Case Compelexity
+
+
+                                      |          No. of time line execute 
+function summation(n){                |          if    n=4
+  let sum = 0                         |                 1
+  for (let i = 1; i<=n; i++){         |                 
+    sum += i;                         |                 4
+  }                                   |
+  return sum                          |                 1
+}
+
+
+                                                          n + 2
+            Time Compelexity =               O(n) - Linear
+
+
+
+if loop , most of the time Complexity is linear 
+
+
+nested loop loop with in loop  -       O(n^2) Quadratic
+
+
+if 3n^2 + 5n + 1 -    O(n^2)
+
+
+if 3 loops as nested  ----- O(n^3) cubic
+
+
+same example with less time Compelexity
+
+
+
+function summation(n){
+  return (n*(n+1))/2;
+}
+
+---------O(1)- Constant
+
+
+
+
+
+Space Compelexity
+
+
+O(1) - Constant (Calculation not dependent on input size)
+
+O(n) - Linear   (loop)
+
+O(log n) - Logarithmic  (input size reduced by half)
+
+O(n^2) -- nested loops
+
+
+
